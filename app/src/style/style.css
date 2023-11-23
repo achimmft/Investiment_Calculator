@@ -1,0 +1,90 @@
+:root {
+    --dark: #222222;
+    --light: #dddddd;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 1rem;
+    background-image: linear-gradient(45deg, #eeeae1, var(--light));
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+button {
+    border: 0;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+input {
+    padding: .5rem;
+    border-radius: 10px
+}
+
+a {
+    text-decoration: none;
+    color: var(--light);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+#root {
+    width: 600px;
+    max-width: 100%;
+    margin: auto;
+}
+
+header {
+    background-color: var(--dark);
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+main {
+    padding: 1rem;
+}
+
+.card-area {
+    border: 1px solid var(--dark);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 15px;
+}
+
+#signup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.field {
+    margin: 10px;
+}

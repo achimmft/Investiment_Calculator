@@ -1,0 +1,13 @@
+.old-gitignore
+app.zip
+cypress.config.js
+db.bak.json
+faq.md
+old_readme.md
+node_modules
+
+app/node_modules
+
+app - Copy
+cypress
+public
