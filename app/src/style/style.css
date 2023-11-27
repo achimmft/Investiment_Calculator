@@ -88,3 +88,11 @@ main {
 .field {
     margin: 10px;
 }
+
+.card-area h2 {
+    margin-bottom: 15px
+}
+
+#btn {
+    margin-left: 10px;
+}

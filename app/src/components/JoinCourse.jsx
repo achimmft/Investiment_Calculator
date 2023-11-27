@@ -40,7 +40,7 @@ export default function JoinCourse() {
                             <option key={course.id} value={course.id}>{course.display}</option>
                         ))}
                     </select>
-                    <button>
+                    <button id="btn">
                         Join course
                     </button>
                 </form>
