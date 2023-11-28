@@ -95,7 +95,13 @@
     {
       "id": "english1010",
       "display": "english",
-      "students": []
+      "students": [
+        "doug"
+      ]
+    },
+    {
+      "id": "cs3250",
+      "display": "Java software engineering"
     }
   ],
   "users": [
